@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #527ab6;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.navigation a:hover,
+.navigation a.active{
+    background-color: white;
+    color: rgb(43, 86, 226);
+}
+
+.logo{
+    font-size: 2em;
+    pointer-events: none;
+    color: white;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    /* margin-top: 98px; */
+    background-color: #100434;
+    color: white;
+    padding: 100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+}
+.sec p{
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
+
+
